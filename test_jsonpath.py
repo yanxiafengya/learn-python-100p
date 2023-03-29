@@ -27,6 +27,9 @@ data = '''{
 }'''
 
 data = json.loads(data)
+
+
+
 # print(data)
 
 print(jsonpath.jsonpath(data,'$..color'))
